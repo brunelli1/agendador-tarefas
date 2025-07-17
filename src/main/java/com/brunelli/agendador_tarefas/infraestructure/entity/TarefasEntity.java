@@ -1,6 +1,6 @@
 package com.brunelli.agendador_tarefas.infraestructure.entity;
 
-import com.brunelli.agendador_tarefas.infraestructure.enums.StastusNotificacaoEnum;
+import com.brunelli.agendador_tarefas.infraestructure.enums.StatusNotificacaoEnum;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -23,7 +23,7 @@ public class TarefasEntity {
     private LocalDateTime dataEvento;
     private String emailUsuario;
     private LocalDateTime dataAlteracao;
-    private StastusNotificacaoEnum stastusNotificacaoEnum;
+    private StatusNotificacaoEnum stastusNotificacaoEnum;
 
 
 }

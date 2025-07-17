@@ -1,6 +1,6 @@
 package com.brunelli.agendador_tarefas.business.dto;
 
-import com.brunelli.agendador_tarefas.infraestructure.enums.StastusNotificacaoEnum;
+import com.brunelli.agendador_tarefas.infraestructure.enums.StatusNotificacaoEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
@@ -21,7 +21,7 @@ public class TarefasDTO {
     private LocalDateTime dataEvento;
     private String emailUsuario;
     private LocalDateTime dataAlteracao;
-    private StastusNotificacaoEnum stastusNotificacaoEnum;
+    private StatusNotificacaoEnum stastusNotificacaoEnum;
 
 
 }
